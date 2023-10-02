@@ -19,6 +19,7 @@ code {
   height: 300px;
   background-color: grey;
   overflow: auto;
+  padding: 2%;
 }
 .input-wrap {
   display: flex;
@@ -32,7 +33,24 @@ code {
   margin-bottom: 30px;
   transform: translate(-50%);
 }
+.input-wrap input{
+  border: none;
+}
+.input-wrap button {
+  border: none;
+}
 .firstChatDiv {
   display: flex;
   justify-content: start;
+
+  color: red;
+  font-family: "inter";
+}
+.secondChatDiv {
+  margin-top: 30px;
+  display: flex;
+  justify-content: end;
+
+  color: Black;
+  font-family: "inter";
 }
